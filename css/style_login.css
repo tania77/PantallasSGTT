@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 body {
     background: linear-gradient(135deg, #ffffff 0%, #f6f6f6 35%, #93bcde 100%);
-    font-family: "Open Sans";
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     margin-left:1%;
     margin-right: 1%;
@@ -23,9 +23,6 @@ body {
     font-size: 15px;
     padding: 8px;
     text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-}
-
-.wrapper{
 }
 
 .flex-container {
@@ -52,19 +49,10 @@ div.logo {
     background-size: 100%;
 }
 
-.cuerpo{
-  margin-top: 3em;
-}
-
 .content {
     float: right;
     width: 74%;
     text-align: justify;
-}
-
-.flex-container-column {
-    display: flex;
-    flex-direction: column;
 }
 
 .text_login {
@@ -113,7 +101,6 @@ button {
     text-shadow: 0 1px rgba(0, 0, 0, 0.3);
     width: 40%;
 }
-
 
 .footer {
     position: fixed;

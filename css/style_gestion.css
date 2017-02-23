@@ -1,10 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 body {
     background: linear-gradient(135deg, #ffffff 0%, #f6f6f6 35%, #93bcde 100%);
-    font-family: "Open Sans";
-}
-
-body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     margin-left:1%;
@@ -27,10 +23,6 @@ body {
     font-size: 15px;
     padding: 8px;
     text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-}
-
-.wrapper{
-  height:800px;
 }
 
 .flex-container {
@@ -89,7 +81,8 @@ div.logo {
 .content {
     float: right;
     width: 74%;
-    text-align: justify;
+    text-align: center;
+    font-size: 40px;
 }
 
 .footer {
