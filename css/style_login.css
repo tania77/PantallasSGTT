@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body {
+    background: linear-gradient(135deg, #ffffff 0%, #f6f6f6 35%, #93bcde 100%);
+    font-family: "Open Sans";
+    font-size: 13px;
+    margin-left:1%;
+    margin-right: 1%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #0066a1;
+    width: 100%;
+    color: white;
+    height: auto;
+    text-align: right;
+}
+
+.header p {
+    margin: 0;
+    font-size: 15px;
+    padding: 8px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper{
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 180px;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.text_header {
+    margin: 10px;
+    width:75%;
+    align-self: center;
+    font-size: 40px;
+    font-style:italic;
+    color: grey;
+}
+
+div.logo {
+    height: auto;
+    width:25%;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+}
+
+.cuerpo{
+  margin-top: 3em;
+}
+
+.content {
+    float: right;
+    width: 74%;
+    text-align: justify;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.text_login {
+    text-align: center;
+    margin: 10px;
+}
+
+.login {
+    width: 40%;
+    margin: auto;
+    padding: 50px;
+    background: #c5c2c2;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.login form {
+    width: 100%;
+}
+
+input {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    font-size: 13px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background: #0066a1;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.55);
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 10px 25px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #0066a1;
+    width: 100%;
+    color: white;
+    text-align: right;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 15px;
+    padding: 8px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
